@@ -106,21 +106,9 @@ UNIT 16 Data Access Using Python 361
 > build your carrier in programming.
 >
 > **BLOCK INTRODUCTION**
->
-> This block is on Introduction to C programming language.
->
-> Problem-solving skills are recognized as an integral component of
-> computer programming and in this block the primary focus of this
-> course is to teach the basic programming constructs of C language.
-> Emphasis is placed on developing the student\'s ability to apply
-> problem-solving strategies to design algorithms and to implement these
-> algorithms in a structured procedural programming language. This
-> course includes a laboratory componentalso where in which the student
-> gets the hands on experience.Basically one must explore possible
-> avenues to a solution one by one until s/he comes across a right path
-> to an optimized and efficient solution. In general, as one gains
-> experience in solving problems, one develops his/her own techniques
-> and strategies, though they are often intangible.
+This block is on Introduction to C programming language.
+
+Problem-solving skills are recognized as an integral component of computer programming and in this block the primary focus of this course is to teach the basic programming constructs of C language. Emphasis is placed on developing the student's ability to apply problem-solving strategies to design algorithms and to implement these algorithms in a structured procedural programming language. This course includes a laboratory component also where the student gets hands-on experience. Basically, one must explore possible avenues to a solution one by one until they come across the right path to an optimized and efficient solution. In general, as one gains experience in solving problems, one develops their own techniques and strategies, though they are often intangible.
 >
 > This block consists of 4 units and is organized as follows:
 >
@@ -266,8 +254,7 @@ Delhi
 
 **Structure**
 
-> 1.0 Introduction
->
+1.0 Introduction
 > 1.1 Objectives
 >
 > 1.2 Problem - Solving Techniques
@@ -284,133 +271,55 @@ Delhi
 
 ##  1.4.1 Basic Symbols used in Flowchart Design 
 
-> 1.5 Program and a Programming Language
->
-> 1.6 Structured Programming Concepts
->
-> 1.7 C Programming Language
+1.5 Program and a Programming Language
+1.6 Structured Programming Concepts
+1.7 C Programming Language
 
 ##  1.7.1 History of C Programming Language 1.7.2 Salient Features of C 
 
-> 1.8 Writing a C Program
->
-> 1.9 Compiling a C Program
-
+1.8 Writing a C Program
+1.9 Compiling a C Program
 1.9.1 The C Compiler 1.9.2 Syntax and Semantic Errors
-
-> 1.10 Link and Run the C Program
+1.10 Link and Run the C Program
 
 ## 1.10.1 Run the C Program through the Menu 1.10.2 Run from an Executable File 1.10.3 Linker Errors 1.10.4 Logical and Runtime Errors 
 
-> 1.11 Diagrammatic Representation ofC Program Execution Process
->
-> 1.12 Summary
->
-> 1.13 Solutions / Answers
->
-> 1.14 Further Readings
+1.11 Diagrammatic Representation ofC Program Execution Process
+1.12 Summary
+1.13 Solutions / Answers
+1.14 Further Readings
 
 **1.0 INTRODUCTION**
+In our daily life, we routinely encounter and solve problems. We pose problems that we need or want to solve. For this, we make use of available resources, and solve them. Some categories of resources include: the time and efforts of yours and others; tools; information; and money. Some of the problems that you encounter and solve are quite simple. But some others may be very complex.
 
-> In our daily life, we routinely encounter and solve problems. We pose
-> problems that we need or want to solve. For this, we make use of
-> available resources, and solve them. Some categories of resources
-> include: the time and efforts of yours and others; tools; information;
-> and money. Some of the problems that you encounter and solve are quite
-> simple.But some others may be very complex.
->
-> In this unit we introduce you to the concepts of problem-solving,
-> especially as they pertain to computer programming**.**
->
-> The problem-solving is a skill and there are no universal approaches
-> one can take to solving problems. Basically one must explore possible
-> avenues to a solution one by one until s/he comes across a right path
-> to a solution. In general, as one gains experience in solving
-> problems, one develops one's own techniques and strategies, though
-> they are often intangible. Problem-solving skills are recognized as an
-> integral component of computer programming. It is a demand and
-> intricate process which is equally important throughout the project
-> life cycle especially -- study, designing, development, testing and
-> implementation stages. The computer problem solving process requires:
+In this unit, we introduce you to the concepts of problem-solving, especially as they pertain to computer programming.
+
+Problem-solving is a skill and there are no universal approaches one can take to solving problems. Basically, one must explore possible avenues to a solution one by one until they come across the right path to a solution. In general, as one gains experience in solving problems, one develops their own techniques and strategies, though they are often intangible. Problem-solving skills are recognized as an integral component of computer programming. It is a demanding and intricate process which is equally important throughout the project life cycle, especially during the study, designing, development, testing, and implementation stages. The computer problem-solving process requires:
 
 -   Problem anticipation
-
 -   Careful planning
-
 -   Proper thought process
-
 -   Logical precision
-
 -   Problem analysis
-
 -   Persistence and attention.
 
-> At the same time it requires personal creativity, analytic ability and
-> expression. The chances of success are amplified when the problem
-> solving is approached in a systematic way and satisfaction is achieved
-> once the problem is satisfactorily solved. The problems should be
-> anticipated in advance as far as possible and properly defined to help
-> the algorithm definition and development process.
->
-> Computer is a very powerful tool for solving problems. It is a
-> symbolmanipulating machine that follows a set of stored instructions
-> called a program. It performs these manipulations very quickly and has
-> memory for storing input, lists of commands and output. A computer
-> cannot think in the way we associate with humans. When using the
-> computer to solve a problem, you must specify the needed initial data,
-> the operations which need to be performed (in order of performance)
-> and what results you want for output. If any of these instructions are
-> missing, you will get either no results or invalid results. In either
-> case, your problem has not yet been solved. Therefore, several steps
-> need to be considered before writing a program. These steps may free
-> you from hours of finding and removing errors in your program (a
-> process called **debugging**). It should also make the act of problem
-> solving with a computer a much simpler task.
->
-> All types of computer programs are collectively referred to as
-> **software**. Programming languages are also part of it. Physical
-> computer equipment such as electronic circuitry, input/output devices,
-> storage media etc. comes under **hardware**. Software governs the
-> functioning of hardware. Operations performed by software may be built
-> into the hardware, while instructions executed by the hardware may be
-> generated in software. The decision to incorporate certain functions
-> in the hardware and others in the software is made by the manufacturer
-> and designer of the software and hardware. Normal considerations for
-> this are: cost, speed, memory required, adaptability and reliability
-> of the system. Set of instructions of the high level language used to
-> code a problem to find its solution is referred to as **Source
-> Program**. A translator program called **a compiler or interpreter**,
-> translates the source program into the object program. This is the
-> compilation or interpretation phase. All the testing of the source
-> program as regards the correct format of instructions is performed at
-> this stage and the errors, if any, are printed. If there is no error,
-> the source program is transformed into the machine language program
-> called **Object Program**. The Object Program is executed to perform
-> calculations. This stage is the execution phase. Data, if required by
-> the program, are supplied now and the results are obtained on the
-> output device.
->
-> The complete process is shown in fig 1.1 below:
+At the same time it requires personal creativity, analytic ability and expression. The chances of success are amplified when the problem solving is approached in a systematic way and satisfaction is achieved once the problem is satisfactorily solved. The problems should be anticipated in advance as far as possible and properly defined to help the algorithm definition and development process.
 
-Results
 
-Source
+Computer is a very powerful tool for solving problems. It is a symbol-manipulating machine that follows a set of stored instructions called a program. It performs these manipulations very quickly and has memory for storing input, lists of commands and output. A computer cannot think in the way we associate with humans. When using the computer to solve a problem, you must specify the needed initial data, the operations which need to be performed (in order of performance) and what results you want for output. If any of these instructions are missing, you will get either no results or invalid results. In either case, your problem has not yet been solved. Therefore, several steps need to be considered before writing a program. These steps may free you from hours of finding and removing errors in your program (a process called **debugging**). It should also make the act of problem solving with a computer a much simpler task.
 
-Program
 
-Compiler /
+All types of computer programs are collectively referred to as **software**. Programming languages are also part of it. Physical computer equipment such as electronic circuitry, input/output devices, storage media etc. comes under **hardware**. Software governs the functioning of hardware. Operations performed by software may be built into the hardware, while instructions executed by the hardware may be generated in software. The decision to incorporate certain functions in the hardware and others in the software is made by the manufacturer and designer of the software and hardware. Normal considerations for this are: cost, speed, memory required, adaptability and reliability of the system. Set of instructions of the high level language used to code a problem to find its solution is referred to as **Source Program**. A translator program called **a compiler or interpreter**, translates the source program into the object program. This is the compilation or interpretation phase. All the testing of the source program as regards the correct format of instructions is performed at this stage and the errors, if any, are printed. If there is no error, the source program is transformed into the machine language program called **Object Program**. The Object Program is executed to perform calculations. This stage is the execution phase. Data, if required by the program, are supplied now and the results are obtained on the output device.
 
-Interpreter
+The complete process is shown in fig 1.1 below:
 
-Object
-
-Program
-
-Data,
-
-if
-
-required
+```mermaid
+graph TD;
+    A[Source Program] --> B[Compiler / Interpreter];
+    B --> C[Object Program];
+    C --> D[Data, if required];
+    D --> E[Results];
+```
 
 **Fig 1.1: Conversion of Source Program to Object Program**
 
@@ -576,14 +485,7 @@ required
 
 ## Use of procedures / functions to emphasize modularity 
 
-> To assist the development, implementation and readability of the
-> program, it is usually helpful to modularize (section) the program.
-> Independent functions perform specific and well defined tasks. In
-> applying modularization, it is important to watch that the process is
-> not taken so far to a point at which the implementation becomes
-> difficult to read because of fragmentation. The program then can be
-> implemented as calls to the various procedures that will be needed in
-> the final implementations.
+> To assist the development, implementation, and readability of the program, it is usually helpful to modularize (section) the program. Independent functions perform specific and well-defined tasks. In applying modularization, it is important to ensure that the process is not taken too far to the point where the implementation becomes difficult to read due to fragmentation. The program can then be implemented as calls to the various procedures that will be needed in the final implementations.
 
 ## Choice of variable names 
 
@@ -628,8 +530,7 @@ required
 
 ### Example 1.1 
 
-> Let us try to develop an algorithm to compute and display the sum of
-> two numbers
+> Let us try to develop an algorithm to compute and display the sum of two numbers
 
 1.  Start
 
@@ -643,8 +544,7 @@ required
 
 ### Example 1.2 
 
-> Let us try to develop an algorithm to compute and print the average of
-> a set of data values.
+Let us try to develop an algorithm to compute and print the average of a set of data values.
 
 1.  Start
 
@@ -661,7 +561,7 @@ required
 
 ### Example 1.3 
 
-> Write an algorithm to calculate the factorial of a given number.
+Write an algorithm to calculate the factorial of a given number.
 
 1.  Start
 
@@ -681,8 +581,7 @@ required
 
 ### Example 1.4 
 
-> Write an algorithm to check that whether the given number is prime or
-> not.
+Write an algorithm to check that whether the given number is prime or not.
 
 1.  Start
 
@@ -710,55 +609,22 @@ Print Number is prime
 
 ## 1.3.4 Top Down Design 
 
-> Once we have defined the problem and have an idea of how to solve it,
-> we can then use the powerful techniques for designing algorithms. Most
-> of the problems are complex or large problems and to solve them we
-> have to focus on to comprehend at one time, a very limited span of
-> logic or instructions. A technique for algorithm design that tries to
-> accommodate this human limitation is known as **top-down design or
-> stepwise refinement.**
+> Once we have defined the problem and have an idea of how to solve it, we can then use the powerful techniques for designing algorithms. Most of the problems are complex or large problems and to solve them we have to focus on comprehending at one time, a very limited span of logic or instructions. A technique for algorithm design that tries to accommodate this human limitation is known as **top-down design or stepwise refinement.**
 >
-> Top down design provides the way of handling the logical complexity
-> and detail encountered in computer algorithm. It allows building
-> solutions to problems in step by step. In this way, specific and
-> complex details of the implementation are encountered only at the
-> stage when sufficient groundwork on the overall structure and
-> relationships among the various parts of the problem.Before the top
-> down design can be applied to any problem, we must at least have the
-> outlines of a solution. Sometimes this might demand a lengthy and
-> creative investigation into the problem while at another time the
-> problem description may in itself provide the necessary starting point
-> for the top-down design. Top-down design suggests taking the general
-> statements about the solution one at a time, and then breaking them
-> down into a more precise subtask / sub-problem. These sub-problems
-> should more accurately describe how the final goal can be reached. The
-> process of repeatedly breaking a task down into a subtask and then
-> each subtask into smaller subtasks must continue until the sub-problem
-> can be implemented as the program statement. With each spitting, it is
-> essential to define how sub-problems interact with each other. In this
-> way, the overall structure of the solution to the problem can be
-> maintained. Preservation of the overall structure is important for
-> making the algorithm comprehensible and also for making it possible to
-> prove the correctness of the solution.
+> Top-down design provides a way of handling the logical complexity and detail encountered in computer algorithms. It allows building solutions to problems step by step. In this way, specific and complex details of the implementation are encountered only at the stage when sufficient groundwork on the overall structure and relationships among the various parts of the problem has been laid. Before the top-down design can be applied to any problem, we must at least have the outlines of a solution. Sometimes this might demand a lengthy and creative investigation into the problem while at other times the problem description may in itself provide the necessary starting point for the top-down design. 
+>
+> Top-down design suggests taking the general statements about the solution one at a time, and then breaking them down into more precise subtasks or sub-problems. These sub-problems should more accurately describe how the final goal can be reached. The process of repeatedly breaking a task down into a subtask and then each subtask into smaller subtasks must continue until the sub-problem can be implemented as a program statement. With each splitting, it is essential to define how sub-problems interact with each other. In this way, the overall structure of the solution to the problem can be maintained. Preservation of the overall structure is important for making the algorithm comprehensible and also for making it possible to prove the correctness of the solution.
 
 ![](./media/media/image9.jpg){width="4.913333333333333in"
 height="3.115in"}
 
 ### Figure 1.2: Schematic breakdown of a problem into subtasks as employed in top down design 
 
-> Let us see how to represent the algorithm in a graphical form using a
-> flowchart in the following section.
+> Let us see how to represent the algorithm in a graphical form using a flowchart in the following section.
 
 **1.4 FLOWCHARTS**
 
-> The next step after the algorithm development is the flowcharting.
-> Flowcharts are used in programming to diagram the path in which
-> information is processed through a computer to obtain the desired
-> results. Flowchart is a graphical representation of an algorithm. It
-> makes use of symbols which are connected among them to indicate the
-> flow of information and processing. It will show the general outline
-> of how to solve a problem or perform a task. It is prepared for better
-> understanding of the algorithm.
+> The next step after the algorithm development is the flowcharting. Flowcharts are used in programming to diagram the path in which information is processed through a computer to obtain the desired results. A flowchart is a graphical representation of an algorithm. It makes use of symbols which are connected among them to indicate the flow of information and processing. It will show the general outline of how to solve a problem or perform a task. It is prepared for better understanding of the algorithm.
 
 ##  1.4.1 Basic Symbols used in flowchart design 
 
@@ -766,23 +632,13 @@ Lines or arrows represent the direction of
 
 Start/Stop
 
-D
+Decision Making (Branching)
 
-ECISION MAKING
-
-(
-
-Branching)
-
-Input/
-
-Output
+Input/Output
 
 the flow of control.
 
-> Connector (connect one part of the
->
-> flowchart to another)
+Connector (connect one part of the flowchart to another)
 
 Process, Instruction
 
@@ -803,217 +659,81 @@ Preparation (may be used with "do Loops" )
 
 The flowchart for the Example 1.1 is shown below:
 
-Sta
-
-r
-
-t
-
-Stop
-
-Print sum
-
-Sum = a +b
-
-Read a,b
+```mermaid
+flowchart TD
+    A[Start] --> B[Read a, b]
+    B --> C[Sum = a + b]
+    C --> D[Print sum]
+    D --> E[Stop]
+```
 
 ### Example 1.6 
 
-> The flowchart for the Example 1.3 (to find factorial of a given
-> number) is
+```markdown
+The flowchart for the Example 1.3 (to find factorial of a given number) is shown below:
 
-shown low:
-
-No
-
-Yes
-
-Start
-
-Stop
-
-Read n
-
-i= 1
-
-fact= 1
-
-Print
-
-fact
-
-is i
-
-\<=
-
-n?
-
-i = i+1
-
-fact = fact\*i
+```mermaid
+flowchart TD
+    A[Start] --> B[Read n]
+    B --> C[i = 1]
+    C --> D[fact = 1]
+    D --> E{is i <= n?}
+    E -- Yes --> F[fact = fact * i]
+    F --> G[i = i + 1]
+    G --> E
+    E -- No --> H[Print fact]
+    H --> I[Stop]
+```
+```
 
 **Example 1.7:**
 
-> The flowchart for Example 1.4 is shown below:
+The flowchart for Example 1.4 is shown below:
 
-Start
-
-Read num
-
-i = 2
-
-flag = 1
-
-rem =
-
-num mod i
-
-is
-
-i\<num?
-
-is
-
-flag = 0?
-
-i = i + 1
-
-is rem
-
-0?
-
-!=
-
-flag = 0
-
-is flag
-
-= 1?
-
-Print
-
-"Number
-
-is prime
-
-Print
-
-"number is
-
-not prime"
-
-no
-
-y
-
-es
-
-no
-
-stop
-
-yes
-
-y
-
-es
-
-no
-
-y
-
-es
-
-no
+```mermaid
+flowchart TD
+    A[Start] --> B[Read num]
+    B --> C[i = 2]
+    C --> D[flag = 1]
+    D --> E{is i < num?}
+    E -- Yes --> F[rem = num mod i]
+    F --> G{is rem != 0?}
+    G -- Yes --> H[i = i + 1]
+    H --> E
+    G -- No --> I[flag = 0]
+    E -- No --> J{is flag = 1?}
+    J -- Yes --> K[Print "Number is prime"]
+    J -- No --> L[Print "Number is not prime"]
+    K --> M[Stop]
+    L --> M
+```
 
 ### Check Your Progress 1 
 
 1.  Differentiate between flowchart and algorithm.
 
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
 
 2.  Compute and print the sum of a set of data values.
 
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
 
 3.  Write the following steps are suggested to facilitate the problem
     solving process using computer.
 
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
 
 4.  Draw an algorithm and flowchart to calculate the roots of quadratic
     equation
 
 > Ax\^2 + Bx + C = 0.
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
 
 **1.5 PROGRAM AND PROGRAMMING LANGUAGE**
+> A language is a mode of communication between two people. It is necessary for those two people to understand the language in order to communicate. But even if the two people do not understand the same language, a translator can help to convert one language to the other, understood by the second person. Similar to a translator is the mode of communication between a user and a computer is a computer language. One form of the computer language is understood by the user, while in the other form it is understood by the computer. A translator (or compiler) is needed to convert from user's form to computer's form. Like other languages, a computer language also follows a particular grammar known as the syntax.
 
-> A language is a mode of communication between two people. It is
-> necessary for those two people to understand the language in order to
-> communicate. But even if the two people do not understand the same
-> language, a translator can help to convert one language to the other,
-> understood by the second person. Similar to a translator is the mode
-> of communication between a user and a computer is a computer language.
-> One form of the computer language is understood by the user, while in
-> the other form it is understood by the computer. A translator (or
-> compiler) is needed to convert from user's form to computer's form.
-> Like other languages, a computer language also follows a particular
-> grammar known as the syntax.
->
-> In this unit we will introduce you the basics of programming language
-> C.
->
-> We have seen in the earlier section's that a computer has to be fed
-> with a detailed set of instructions and data for solving a problem.
-> Such a procedure which we call an *algorithm* is a series of steps
-> arranged in a logical sequence. Also we have seen that a *flowchart*
-> is a pictorial representation of a sequence of instructions given to
-> the computer. It also serves as a document explaining the procedure
-> used to solve a problem. In practice it is necessary to express an
-> algorithm using a *programming language*. A procedure expressed in a
-> programming language is known as a *computer program*.
->
-> Computer programming languages are developed with the primary
-> objective of facilitating a large number of people to use computers
-> without the need for them to know in detail the internal structure of
-> the computer. Languages are designed to be *machine-independent*. Most
-> of the programming languages ideally designed, to execute a program on
-> any computer regardless of who manufactured it or what model it is.
->
+> In this unit we will introduce you the basics of programming language C.
+
+> We have seen in the earlier section's that a computer has to be fed with a detailed set of instructions and data for solving a problem. Such a procedure which we call an *algorithm* is a series of steps arranged in a logical sequence. Also we have seen that a *flowchart* is a pictorial representation of a sequence of instructions given to the computer. It also serves as a document explaining the procedure used to solve a problem. In practice it is necessary to express an algorithm using a *programming language*. A procedure expressed in a programming language is known as a *computer program*.
+
+> Computer programming languages are developed with the primary objective of facilitating a large number of people to use computers without the need for them to know in detail the internal structure of the computer. Languages are designed to be *machine-independent*. Most of the programming languages ideally designed, to execute a program on any computer regardless of who manufactured it or what model it is.
+
 > Programming languages can be divided into two categories:
 
 i)  **Low Level Languages or Machine Oriented Languages:** The language
@@ -1122,43 +842,13 @@ ii) **High Level Languages or Problem Oriented Languages:** These
 
 1.  "A Program written in Low Level Language is faster." Why?
 
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
-> ................................................................................................\...
 
 2.  What is the difference between high level language and low level
 
 language?
 
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
-> ................................................................................................\...
 
 3.  Why is C referred to as middle level language?
-
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
 
 **1.7 STRUCTURE OF A C PROGRAM**
 
@@ -1181,42 +871,25 @@ language?
 > Preprocessor directives
 
 Global data declarations
-
-main ( ) /\* main function\*/
-
-{
-
-Declaration part;
-
-Program statements;
-
+```c
+main() { /* main function */
+    /* Declaration part */
+    /* Program statements */
 }
 
-/\*User defined functions\*/
-
-func1( )
-
-{
-
-............
-
+/* User defined functions */
+func1() {
+    /* Function body */
 }
 
-func2 ( )
-
-{
-
-............
-
-} .
-
-funcn ( )
-
-{
-
-............
-
+func2() {
+    /* Function body */
 }
+
+funcn() {
+    /* Function body */
+}
+```
 
 > **Figure. 1.3: Structure of a C Program.**
 
@@ -1229,62 +902,68 @@ funcn ( )
 
 **Example 1.8: Write a program to print a message on the screen**.
 
-/\*Program to print a message\*/
+```c
+/* Program to print a message */
 
-#include\<stdio.h\> /\* header file\*/
+#include <stdio.h> /* header file */
 
-main() /\* main function\*/
-
+int main() /* main function */
 {
+    printf("This is a C program\n"); /* output statement */
+    return 0;
+}
+```
+Though the program is very simple, a few points must be noted.
 
-printf(\"This is a C program\\n\"); /\* output statement\*/ }
+Every C program contains a function called **main()**. This is the starting point of the program. This is the point from where the execution begins. It will usually call other functions to help perform its job, some that we write and others from the standard libraries provided.
 
-> Though the program is very simple, a few points must be noted.
->
-> Every C program contains a function called **main()**. This is the
-> starting point of the program. This is the point from where the
-> execution begins. It will usually call other functions to help perform
-> its job, some that we write and others from the standard libraries
-> provided.
->
-> **#include \<stdio.h\>** is a reference to a special file called
-> stdio.h which contains information that must be included in the
-> program when it is compiled. The inclusion of this required
-> information will be handled automatically by the compiler. You will
-> find it at the beginning of almost every C program. Basically, all the
-> statements starting with \# in a C program are called preprocessor
-> directives. These will be considered in the later units. Just
-> remember, that this statement allows you to use some predefined
-> functions such as, *printf(),* in this case.
->
-> **main()** declares the start of the function, while the two curly
-> brackets { } shows the start and finish of the function. Curly
-> brackets in C are used to group statements together as a function, or
-> in the body of a loop. Such a grouping is known as a compound
-> statement or a block. Every statement within a function ends with a
-> terminator semicolon (;).
->
-> **printf("This is a C program\\n");** prints the words on the screen.
-> The text to be printed is enclosed in double quotes. The **\\n** at
-> the end of the text tells the program to print a newline as part of
-> the output. That means now if we give a second printf statement, it
-> will be printed in the next line.
->
-> Comments may appear anywhere within a program, as long as they are
-> placed within the delimiters **/\*** and **\*/.** Such comments are
-> helpful in identifying the program's principal features or in
-> explaining the underlying logic of various program features.
->
-> While useful for teaching, such a simple program has few practical
-> uses. Let us consider something rather more practical. Let us look
-> into the example given below, the complete program development life
-> cycle.
+**#include <stdio.h>** is a reference to a special file called stdio.h which contains information that must be included in the program when it is compiled. The inclusion of this required information will be handled automatically by the compiler. You will find it at the beginning of almost every C program. Basically, all the statements starting with `#` in a C program are called preprocessor directives. These will be considered in the later units. Just remember, that this statement allows you to use some predefined functions such as, *printf()*, in this case.
+
+**main()** declares the start of the function, while the two curly brackets `{ }` show the start and finish of the function. Curly brackets in C are used to group statements together as a function, or in the body of a loop. Such a grouping is known as a compound statement or a block. Every statement within a function ends with a terminator semicolon `;`.
+
+**printf("This is a C program\n");** prints the words on the screen. The text to be printed is enclosed in double quotes. The `\n` at the end of the text tells the program to print a newline as part of the output. That means now if we give a second printf statement, it will be printed in the next line.
+
+Comments may appear anywhere within a program, as long as they are placed within the delimiters `/*` and `*/`. Such comments are helpful in identifying the program's principal features or in explaining the underlying logic of various program features.
+
+While useful for teaching, such a simple program has few practical uses. Let us consider something rather more practical. Let us look into the example given below, the complete program development life cycle.
 
 **Example 1.9**
 
-> Develop an algorithm, flowchart and program to add two numbers.
+Develop an algorithm, flowchart, and program to add two numbers.
 
-## Algorithm 
+## Algorithm
+
+1. Start
+2. Input the two numbers `a` and `b`
+3. Calculate the sum as `a + b`
+4. Store the result in `sum`
+5. Display the result
+6. Stop
+
+## Flowchart
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Input a, b]
+    B --> C[Sum = a + b]
+    C --> D[Display sum]
+    D --> E[Stop]
+```
+
+## Program
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a, b, sum; /* variables declaration */
+    printf("\nEnter the values for a and b: \n");
+    scanf("%d %d", &a, &b);
+    sum = a + b;
+    printf("\nThe sum is %d\n", sum); /* output statement */
+    return 0;
+}
+``` 
 
 1.  Start
 
@@ -1300,39 +979,30 @@ printf(\"This is a C program\\n\"); /\* output statement\*/ }
 
 ## Flowchart 
 
-START
+```mermaid
+flowchart TD
+    A[Start] --> B[Input a, b]
+    B --> C[Sum = a + b]
+    C --> D[Print Sum]
+    D --> E[Stop]
+```
 
-INPUT
-
-a,
-
-b
-
-Sum = a + b
-
-STOP
-
-PRINT
-
-Sum
-
-> **Figure 1.4: Flow chart to add two numbers**
+**Figure 1.4: Flow chart to add two numbers**
 
 ### Program 
 
-\#**include**\<stdio.h\>
+```c
+#include <stdio.h>
 
-main() {
-
-**int** a,b,sum; /\* variables declaration\*/
-
-printf("\\n Enter the values for a and b: \\n");
-
-scanf("%d, %d", &a, &b);
-
-sum=a+b;
-
-printf(\"\\nThe sum is %d\",sum); /\*output statement\*/ }
+int main() {
+    int a, b, sum; /* variables declaration */
+    printf("\nEnter the values for a and b: \n");
+    scanf("%d %d", &a, &b);
+    sum = a + b;
+    printf("\nThe sum is %d\n", sum); /* output statement */
+    return 0;
+}
+```
 
 ### OUTPUT 
 
@@ -1342,23 +1012,9 @@ Enter the values of a and b:
 
 The sum is 5
 
-> In the above program considers two variables *a* and *b*. These
-> variables are declared as integers **(int)**, it is the data type to
-> indicate integer values. Next statement is the printf statement meant
-> for prompting the user to input the values of ***a***and ***b***.
-> scanf is the function to intake the values into the program provided
-> by the user. Next comes the processing / computing part which computes
-> the **sum**. Again the **printf** statement is a bit different from
-> the first program; it includes a format specifier (%d). The format
-> specifier indicates the kind of value to be printed. We will study
-> about other data types and format specifiers in detail in the
-> following units. In the printf statement above, sum is not printed in
-> double quotes because we want its value to be printed. The number of
-> format specifiers and the variable should match in the printf
-> statement.
->
-> At this stage, don't go much in detail. However, in the following
-> units you will be learning all these details.
+In the above program, two variables *a* and *b* are considered. These variables are declared as integers **(int)**, which is the data type to indicate integer values. The next statement is the `printf` statement meant for prompting the user to input the values of ***a*** and ***b***. `scanf` is the function to intake the values into the program provided by the user. Next comes the processing/computing part which computes the **sum**. Again, the `printf` statement is a bit different from the first program; it includes a format specifier (%d). The format specifier indicates the kind of value to be printed. We will study other data types and format specifiers in detail in the following units. In the `printf` statement above, `sum` is not printed in double quotes because we want its value to be printed. The number of format specifiers and the variables should match in the `printf` statement.
+
+At this stage, don't go much into detail. However, in the following units, you will be learning all these details
 
 **1.8 WRITING A C PROGRAM**
 
@@ -1451,60 +1107,43 @@ Code^Program^ Code
 
 **Example 1.10: Write a program to print a message on the screen.**
 
-> /\* Program to print a message on the screen\*/
->
-> #include \<stdio.h main( ) { printf("Hello, how are you\\n")
->
-> Let the name of the program be **test.c** .If we compile the above
-> program as it is we will get the following errors:
->
-> Error test.c 1:No file name ending
->
-> Error test.c 5: Statement missing ;
->
-> Error test.c 6: Compound statement missing }
->
-> Edit the program again, correct the errors mentioned and the corrected
-> version appears as follows:
->
-> #include \<stdio.h\> main( )
->
-> {
->
-> printf ("Hello, how are you\\n"); }
->
-> Apart from syntax errors, another type of errors that are shown while
-> compilation are semantic errors. These errors are displayed as
-> warnings. These errors are shown if a particular statement has no
-> meaning. The program does compile with these errors, but it is always
-> advised to correct them also, since they may create problems while
-> execution. The example of such an error is that say you have declared
-> a variable but have not used it, and then you get a warning "code has
-> no effect". These variables are unnecessarily occupying the memory.
+```c
+/* Program to print a message on the screen */
+
+#include <stdio.h>
+
+int main() {
+    printf("Hello, how are you\n");
+    return 0;
+}
+```
+
+Let the name of the program be **test.c**. If we compile the above program as it is, we will get the following errors:
+
+```
+Error test.c 1: No file name ending
+Error test.c 5: Statement missing ;
+Error test.c 6: Compound statement missing }
+```
+
+Edit the program again, correct the errors mentioned, and the corrected version appears as follows:
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, how are you\n");
+    return 0;
+}
+```
+> Compilation errors are semantic errors. These errors are displayed as warnings. These errors are shown if a particular statement has no meaning. The program does compile with these errors, but it is always advised to correct them also, since they may create problems during execution. An example of such an error is declaring a variable but not using it, which results in a warning like "code has no effect". These variables unnecessarily occupy memory.
 
 ### Check Your Progress 3 
 
 1.  What is the basic unit of a C program?
 
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
-
-................................................................................................\...
-................................................................................................\...
 
 2.  "The program is syntactically correct". What does it mean?
-
-> ................................................................................................\...
->
-> ................................................................................................\...
->
-> ................................................................................................\...
-
-................................................................................................\...
-................................................................................................\...
 
 3.  Indicate the syntax errors in the following program code:
 
@@ -1528,20 +1167,7 @@ Code^Program^ Code
 
 **1.10 LINK AND RUN THE C PROGRAM**
 
-> After compilation, the next step is linking the program. Compilation
-> produces a file with an extension **.obj**. Now this **.obj** file
-> cannot be executed since it contains calls to functions defined in the
-> standard library (header files) of C language. These functions have to
-> be linked with the code you wrote. C comes with a standard library
-> that provides functions that perform most commonly needed tasks. When
-> you call a function that is not the part of the program you wrote, C
-> remembers its name. Later the linker combines the code you wrote with
-> the object code already found in the standard library. This process is
-> called *linking.* In other words, Linker is a program that links
-> separately compiled functions together into one program. It combines
-> the functions in the standard C library with the code that you wrote.
-> The output of the linker in an executable program i.e., a file with an
-> extension ***.exe***.
+After compilation, the next step is linking the program. Compilation produces a file with an extension **.obj**. Now this **.obj** file cannot be executed since it contains calls to functions defined in the standard library (header files) of the C language. These functions have to be linked with the code you wrote. C comes with a standard library that provides functions that perform most commonly needed tasks. When you call a function that is not part of the program you wrote, C remembers its name. Later, the linker combines the code you wrote with the object code already found in the standard library. This process is called *linking.* In other words, a linker is a program that links separately compiled functions together into one program. It combines the functions in the standard C library with the code that you wrote. The output of the linker is an executable program, i.e., a file with an extension ***.exe***.
 
 ## 1.10.1 Run the C Program Through the Menu 
 
@@ -1873,7 +1499,12 @@ Thomson
 
 > Learning, 2001.
 
-**UNIT 2 DATA TYPES, OPERATORS AND EXPRESSIONS**
+
+
+
+
+
+# UNIT 2 DATA TYPES, OPERATORS AND EXPRESSIONS**
 
 ## Structure 
 
@@ -2239,13 +1870,21 @@ Y
 -   the memory, where the value is stored.
 
 ## 2.7 DECLARING VARIABLES 
+Before any data can be stored in the memory, we must assign a name to these locations of memory. For this, we make declarations. Declaration associates a group of identifiers with a specific data type. All of them need to be declared before they appear in program statements, else accessing the variables results in junk values or a diagnostic error. The syntax for declaring variables is as follows:
 
-> Before any data can be stored in the memory, we must assign a name to
-> these locations of memory. For this we make declarations. Declaration
-> associates a group of identifiers with a specific data type. All of
-> them need to be declared before they appear in program statements,
-> else accessing the variables results in junk values or a diagnostic
-> error. The syntax for declaring variables is as follows:
+```c
+data-type variable-name(s);
+```
+
+For example:
+
+```c
+int a;
+short int a, b;
+int c, d;
+long c, f;
+float r1, r2;
+```
 
 *data- type variable-name(s);*
 
