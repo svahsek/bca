@@ -1,3 +1,6 @@
+
+# BCA_NEWOL Syllabus
+
   | Course Code | Title Of Course                      | Nature Of Course    | Credits | Total Practical Hrs |
   |-------------|--------------------------------------|---------------------|---------|---------------------|
   | **Semester - 1, 20 Credits, 60 Hrs**               |                      |                     |         |                     |
