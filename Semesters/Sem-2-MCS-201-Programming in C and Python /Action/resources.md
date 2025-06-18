@@ -1,0 +1,1 @@
+[Jacob Sorber - C language tutorials](https://www.youtube.com/watch?v=mib3ahMbq_0&list=PL9IEJIKnBJjG5H0ylFAzpzs9gSmW_eICB&index=2)
