@@ -13,13 +13,13 @@
 MAIDAN GARHI, NEW DELHI - 110 068 
 www.ignou.ac.in
 
----
+***
 
 **Programme Guide:** January, 2023
 
 This is a Programme Guide for BCAOL Online (Programme Code: BCAOL) offered by IGNOU.
 
----
+***
 
 © Indira Gandhi National Open University
 
@@ -27,7 +27,7 @@ All rights reserved. No part of this work may be reproduced in any form, by mime
 
 Further information on the Indira Gandhi National Open University courses can be obtained from the University's office at Maidan Garhi, New Delhi-110 068 or from its Regional Centres spread across the length and breadth of the country.
 
----
+***
 # TABLE OF CONTENTS
 
 | Section | Page No. |
@@ -64,7 +64,7 @@ Further information on the Indira Gandhi National Open University courses can be
 | 8. Pattern of Question Papers | 69 |
 | 9. Links to Forms and Enclosures | 69 |
 
----
+***
 
 # MESSAGE FROM PROGRAMME COORDINATOR
 
@@ -86,7 +86,7 @@ I wish you all the success in pursuing the BCAOL programme.
 BCAOL Programme Coordinator 
 Email ID: bcaolsocis@ignou.ac.in
 
----
+***
 
 # 1. BASIC INFORMATION
 
@@ -241,7 +241,7 @@ With the objective of putting in place a system for quick resolution of students
 
 Students may contact the BCAOL Programme Coordinator by sending a communication through post to The BCAOL Programme Coordinator, SOCIS, Vishveswaraiyah Bhavan, C-Block, IGNOU Academic Complex, IGNOU, Maidan Garhi, New Delhi – 110068, or can send an Email to bcaolsocis@ignou.ac.in
 
----
+***
 
 # 2. INSTRUCTIONAL SYSTEM
 
@@ -2015,7 +2015,7 @@ Colspan and Rowspan, Frames, Frameset, FRAME Tag, NOFRAMES Tag, Forms,
 FORM and INPUT Tag, Text Box, Radio Button, Checkbox, SELECT Tag and
 Pull Down Lists, Hidden, Submit and Reset, Some Special Tags,
 COLGROUP, THREAD, TBODY, TFOOT, _blank,
-_self, _parent, _top, IFRAME, LABEL, Attribute for <SELECT>,
+_self, _parent, _top, IFRAME, LABEL, Attribute for `<SELECT>`,
 TEXTAREA.
 Unit 4: Introduction to JavaScript
 JavaScript Variables and Data Types, Declaring Variables, Data Types,
@@ -2339,7 +2339,7 @@ Unit 2: Using Style Sheets
 CSS: Inline Styles, Embedded Style Sheets, Linking External Style
 Sheets, Style Specification Formats Selector Forms, Colour, Property
 Value Forms, Font Properties, List Properties, Alignment of Text, The
-Box Model, Background Image ,The <span> and <div> Tags.
+Box Model, Background Image, The `<span>` and `<div>` Tags.
 Unit 3: Introduction to XML
 XML Basics, XML Document Structure, XML Namespaces, Document Type
 Definitions, XML Schemas, Displaying XML Documents.
@@ -3000,7 +3000,6 @@ a) Continuous Evaluation: Max. Marks: 100, Min. Marks: 40, Weightage :
 b) Term End Examination: Max. Marks: 100, Min. Marks 40, Weightage: 75%
   Duration of TEE: 3 hours
 
-<!-- -->
 
 II) Evaluation Methodology of BCS-040
 
@@ -3105,7 +3104,6 @@ iii) Presentation: Once you are satisfied with your answers, you can
    write down the final version for submission, writing each answer
    neatly and underlining the points you want toemphasize.
 
-<!-- -->
 
 2. The following format is to be followed for submission of the
   assignment:
