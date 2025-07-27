@@ -2614,129 +2614,252 @@ independent, secure and network-based operating system. Linux and
 Windows 2000 have got very wide coverage in the course. Security and
 network management, a part of modern Operating System design, have
 also been taken up.
-Syllabus
-BLOCK 1: Operating System Fundamentals Networking
-Unit 1: Graphical User Interface
-What is Graphical User Interface, Evolution of Human and Machine
-Interaction, Common Graphical User Interfaces, Functionality of
-Graphical User Interface, GUI Design Consideration: psychological
-factors, GUI Design Consideration: standards, GUI Example, Microsoft
-Windows, Macintosh Toolbox, X-windows, NeXT.
-Unit 2: Introduction to Operating System
-What is an Operating System? Evolution of Operating System, Serial
-Processing, Batch Processing, Multiprogramming, Operating System
-Structure, Layered Structure Approach, Virtual Machine, Client-Server
-Model, Kernel Approach, Classification of Advanced Operating System,
-Architecture Driven Operating System, Application Driven Operating
-System, Characteristics of Modern Operating System, Microkernel
-Architecture, Multithreading, Symmetric Multiprocessing.
-Unit 3: Introduction to Networking Concepts
-Why Computer Networks, The Topologies, Characteristics of the OSI
-Layers, OSI Models and Communication between Systems, Interaction
-between OSI Model Layers, Protocols Types of Networks, Local Area
-Network (LANs), Metropolitan Networks (MANs), Wide Area Network
-(WANs), Medium, Data Flow,
-Physical Connection, Transmission Media, Connecting Devices,
-Repeaters, Hubs, Bridges, Routers, Gateways.
-Unit 4: Internetworking: Concept, Architecture and Protocols
-Architecture and Protocols, History of internetworking, Packet
-Switching, Internetworking Concepts, Internet Addresses Object-Based
-Programming, Configuring IP Addresses, TCP/ IP, Additional TCP/ IP --
-Related Protocols, Application Layer Protocols, File Transfer
-Protocols, Trivial File Transfer Protocol (TFTP), TELNET, Remote
-login, Electronic Mail (Email),World Wide Web, Domain Name System,
-SNMP and UDP.
-BLOCK 2: Linux Operating System
-Unit 1: Introduction to Linux Operating System
-Features of Linux, Drawbacks of Linux, Components of Linux, Memory
-Management Subsystems, Linux Process and Thread Management, File
-Management System, Device Drivers.
-Unit 2: Linux Commands and Utilities
-Entering the Machine, User Names and Groups, Logging In, Correcting
-Typing Mistakes, Format of Linux Commands, Changing Your Password,
-Characters with
-Special Meanings, Linux Documentation, The File System, Current
-Directory, Looking at the Directory Contents, Absolute and Relative
-Pathnames, Some Linux Directories and Files.
-Unit 3: Linux Utilities and Editor
-Some Useful Commands, Permission Modes and Standard Files, Pipes,
-Filters and Redirection, Shell Scripts, Graphical User Interface,
-Editor.
-Unit 4: User-to-User Communication
-On-Line Communication, Off-Line Communication, Apache Server Settings,
-Network Server Settings, Domain Name Server, Network File Server.
-Unit 5: UNIX System Administration
-System Administration, Installing Linux, Choosing an Installation
-Method, Choosing an Installation Class, Pre-installation checks,
-Installation, Booting the System, Maintaining
-User Accounts, File Systems and Special Files, Backups and
-Restoration.
-BLOCK 3: Windows 2000
-Unit 1: Windows 2000 Networking
-Windows 2000 Operating System Architecture, Peer-To-Peer Network,
-Domains, Network Protocols, File Services, Shared Folders, Distributed
-File System, Print Services, Using the Mapped Drive, Printing a Mapped
-Drive, Disconnecting a Mapped Drive, Viewing Directory Information,
-Creating a Shared Folder, Logging off a Client, A Few Important Facts
-About Windows 2000 Usages.
-Unit 2: Managing Windows 2000 Server
-Using Windows 2000 and Client, Logging on to the Network, Browsing
-Network Resources 1, Accessing Network Resources Using My Network
-Places, Mapping a Folder.
-Unit 3: Advanced Windows 2000 Networking
-Windows 2000 Domains, Workgroups & Trusted Relationships, Concept of
-Domains,
-Trust Relationships, Building Domains, User Administration, Remote
-Access.
-Unit 4: Windows XP Networking
-Introduction to Windows XP Networking, TCP/IP Protocol Setting for
-Windows XP, To Select a Network Protocol, Virtual Private Networks and
-Remote Networking, Windows XP in File System, Sharing Network
-Resources in Windows XP, Sharing Files in Windows XP, Sharing Folders
-in Windows XP, Sharing Drives in Windows XP, Enabling Offline File
-Features.
-BLOCK 4: Security and Management
-Unit 1: Security Concepts
-Goals of Computer Security, Integrity, Confidentiality, Availability,
-Security Problem and Requirements, Identifying the Assets, Identifying
-the Threats, Identifying theImpact, Threat and Vulnerabilities, User
-Authentication, Security System and Facilities, System Access Control,
-Password Management, Privileged User Management, User Account
-Management, Data Resource Protection, Sensitive System Protection,
-Cryptography,
-Intrusion detection, Computer-Security Classifications.
-Unit 2: Computer Security
-Hardening Operating System and Application Code, Hardening File System
-Security, Hardening Local Security Policies, Hardening Services,
-Hardening Default Accounts, Hardening Network Activity, Malicious
-Code, Firewall, Fault Tolerant System, BACKUP and UPS.
-Unit 3: Security and Management-I
-Main Issues In Windows Security Management, Physical Security
-Management, Logon Security Management, Users and Groups Management,
-Managing Local and Global Groups, Managing User Accounts, Windows NT
-Domain Management, Domain Controller, The Primary Domain Controller
-(PDM), Backup Domain Controller (BDC), Windows Resources Management,
-Registry Management, Removing Registry Access, Managing Individual
-Keys, Audit Registry Access, Printer Management, Managing Windows 2000
-Operating System, Active Directory, Logical Structure, Physical
-Structure, Windows 2000 DNS Management, Managing Group Policy.
-Unit 4: Security and Management-II
-User Authentication Management, Subsystems Component Management,
-Kerberos Management, User and Group Management, Configuring User
-Accounts, Creating Domain User Accounts, Managing Logon Hours,
-Managing Expiry Date for a User Account, Windows 2000 Groups
-Management, Default Group Types, Security Configuration Management
-Tool, Resource Management, Files and Folder Management, Files and
-Folder Permission, Inheritances and Propagation, Moving Data and
-Permission, Shared Resources Management, The NULL Session, Registry
-Management,
-Default Registry Configurations, Registry Backup Managements, Printer
-Security Management, Windows 2000 Network -- Security and Management,
-NAT and ICS,
-RRAS, RADIUS and IAS, IPSec, Encrypting File System Management,
-Encrypting File System (EFS), EFS and Users Management, Data Recovery
-Management, EFS
-Cryptography Management.
+### Syllabus
+
+#### BLOCK 1: Operating System Fundamentals & Networking
+
+1. **Unit 1: Graphical User Interface**
+    - What is Graphical User Interface
+    - Evolution of Human and Machine Interaction
+    - Common Graphical User Interfaces
+    - Functionality of Graphical User Interface
+    - GUI Design Consideration: psychological factors
+    - GUI Design Consideration: standards
+    - GUI Example
+    - Microsoft Windows
+    - Macintosh Toolbox
+    - X-windows
+    - NeXT
+
+2. **Unit 2: Introduction to Operating System**
+    - What is an Operating System?
+    - Evolution of Operating System
+    - Serial Processing
+    - Batch Processing
+    - Multiprogramming
+    - Operating System Structure
+    - Layered Structure Approach
+    - Virtual Machine
+    - Client-Server Model
+    - Kernel Approach
+    - Classification of Advanced Operating System
+    - Architecture Driven Operating System
+    - Application Driven Operating System
+    - Characteristics of Modern Operating System
+    - Microkernel Architecture
+    - Multithreading
+    - Symmetric Multiprocessing
+
+3. **Unit 3: Introduction to Networking Concepts**
+    - Why Computer Networks
+    - The Topologies
+    - Characteristics of the OSI Layers
+    - OSI Models and Communication between Systems
+    - Interaction between OSI Model Layers
+    - Protocols Types of Networks
+    - Local Area Network (LANs)
+    - Metropolitan Networks (MANs)
+    - Wide Area Network (WANs)
+    - Medium, Data Flow, Physical Connection, Transmission Media
+    - Connecting Devices: Repeaters, Hubs, Bridges, Routers, Gateways
+
+4. **Unit 4: Internetworking: Concept, Architecture and Protocols**
+    - Architecture and Protocols
+    - History of internetworking
+    - Packet Switching
+    - Internetworking Concepts
+    - Internet Addresses
+    - Object-Based Programming
+    - Configuring IP Addresses
+    - TCP/IP
+    - Additional TCP/IP Related Protocols
+    - Application Layer Protocols
+    - File Transfer Protocols
+    - Trivial File Transfer Protocol (TFTP)
+    - TELNET, Remote login, Electronic Mail (Email)
+    - World Wide Web, Domain Name System, SNMP and UDP
+
+---
+
+#### BLOCK 2: Linux Operating System
+
+1. **Unit 1: Introduction to Linux Operating System**
+    - Features of Linux
+    - Drawbacks of Linux
+    - Components of Linux
+    - Memory Management Subsystems
+    - Linux Process and Thread Management
+    - File Management System
+    - Device Drivers
+
+2. **Unit 2: Linux Commands and Utilities**
+    - Entering the Machine
+    - User Names and Groups
+    - Logging In
+    - Correcting Typing Mistakes
+    - Format of Linux Commands
+    - Changing Your Password
+    - Characters with Special Meanings
+    - Linux Documentation
+    - The File System
+    - Current Directory
+    - Looking at the Directory Contents
+    - Absolute and Relative Pathnames
+    - Some Linux Directories and Files
+
+3. **Unit 3: Linux Utilities and Editor**
+    - Some Useful Commands
+    - Permission Modes and Standard Files
+    - Pipes, Filters and Redirection
+    - Shell Scripts
+    - Graphical User Interface
+    - Editor
+
+4. **Unit 4: User-to-User Communication**
+    - On-Line Communication
+    - Off-Line Communication
+    - Apache Server Settings
+    - Network Server Settings
+    - Domain Name Server
+    - Network File Server
+
+5. **Unit 5: UNIX System Administration**
+    - System Administration
+    - Installing Linux
+    - Choosing an Installation Method
+    - Choosing an Installation Class
+    - Pre-installation checks
+    - Installation
+    - Booting the System
+    - Maintaining User Accounts
+    - File Systems and Special Files
+    - Backups and Restoration
+
+---
+
+#### BLOCK 3: Windows 2000
+
+1. **Unit 1: Windows 2000 Networking**
+    - Windows 2000 Operating System Architecture
+    - Peer-To-Peer Network
+    - Domains
+    - Network Protocols
+    - File Services
+    - Shared Folders
+    - Distributed File System
+    - Print Services
+    - Using the Mapped Drive
+    - Printing a Mapped Drive
+    - Disconnecting a Mapped Drive
+    - Viewing Directory Information
+    - Creating a Shared Folder
+    - Logging off a Client
+    - Important Facts About Windows 2000 Usages
+
+2. **Unit 2: Managing Windows 2000 Server**
+    - Using Windows 2000 and Client
+    - Logging on to the Network
+    - Browsing Network Resources
+    - Accessing Network Resources Using My Network Places
+    - Mapping a Folder
+
+3. **Unit 3: Advanced Windows 2000 Networking**
+    - Windows 2000 Domains, Workgroups & Trusted Relationships
+    - Concept of Domains
+    - Trust Relationships
+    - Building Domains
+    - User Administration
+    - Remote Access
+
+4. **Unit 4: Windows XP Networking**
+    - Introduction to Windows XP Networking
+    - TCP/IP Protocol Setting for Windows XP
+    - Selecting a Network Protocol
+    - Virtual Private Networks and Remote Networking
+    - Windows XP in File System
+    - Sharing Network Resources in Windows XP
+    - Sharing Files, Folders, Drives in Windows XP
+    - Enabling Offline File Features
+
+---
+
+#### BLOCK 4: Security and Management
+
+1. **Unit 1: Security Concepts**
+    - Goals of Computer Security: Integrity, Confidentiality, Availability
+    - Security Problem and Requirements
+    - Identifying the Assets, Threats, Impact, Vulnerabilities
+    - User Authentication
+    - Security System and Facilities
+    - System Access Control
+    - Password Management
+    - Privileged User Management
+    - User Account Management
+    - Data Resource Protection
+    - Sensitive System Protection
+    - Cryptography
+    - Intrusion detection
+    - Computer-Security Classifications
+
+2. **Unit 2: Computer Security**
+    - Hardening Operating System and Application Code
+    - Hardening File System Security
+    - Hardening Local Security Policies
+    - Hardening Services
+    - Hardening Default Accounts
+    - Hardening Network Activity
+    - Malicious Code
+    - Firewall
+    - Fault Tolerant System
+    - BACKUP and UPS
+
+3. **Unit 3: Security and Management-I**
+    - Main Issues In Windows Security Management
+    - Physical Security Management
+    - Logon Security Management
+    - Users and Groups Management
+    - Managing Local and Global Groups
+    - Managing User Accounts
+    - Windows NT Domain Management
+    - Domain Controller, PDC, BDC
+    - Windows Resources Management
+    - Registry Management
+    - Removing Registry Access
+    - Managing Individual Keys
+    - Audit Registry Access
+    - Printer Management
+    - Managing Windows 2000 Operating System
+    - Active Directory: Logical & Physical Structure
+    - Windows 2000 DNS Management
+    - Managing Group Policy
+
+4. **Unit 4: Security and Management-II**
+    - User Authentication Management
+    - Subsystems Component Management
+    - Kerberos Management
+    - User and Group Management
+    - Configuring User Accounts
+    - Creating Domain User Accounts
+    - Managing Logon Hours
+    - Managing Expiry Date for a User Account
+    - Windows 2000 Groups Management
+    - Default Group Types
+    - Security Configuration Management Tool
+    - Resource Management
+    - Files and Folder Management
+    - Files and Folder Permission, Inheritances and Propagation
+    - Moving Data and Permission
+    - Shared Resources Management
+    - The NULL Session
+    - Registry Management, Default Registry Configurations, Registry Backup Managements
+    - Printer Security Management
+    - Windows 2000 Network -- Security and Management
+    - NAT and ICS, RRAS, RADIUS and IAS, IPSec
+    - Encrypting File System Management (EFS)
+    - EFS and Users Management
+    - Data Recovery Management
+    - EFS Cryptography Management
+
 
 ## BCSL-063: Lab (Operating System concepts and Networking Management) 
 
